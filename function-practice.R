@@ -27,7 +27,7 @@ animal_age <- function(animal, age) {
   if (!animal %in% c("dog", "goat")) { # if animal is NOT dog or goat
     stop("Please go buy a zawg or LEBRON JAMES")
   }
-  if (age > 20) {
+  if (age > 20) { # age cap
     warning("Your zawg literally cannot be that old")
   }
   if (animal == "dog") {
